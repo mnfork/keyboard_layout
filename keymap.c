@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, KC_LGUI,     KC_LALT,     KC_LCTL,     KC_LSFT,     KC_CIRC,                   KC_ASTR, KC_LPRN,     KC_LCBR,     KC_LBRC,      KC_MINS,     KC_NO,
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
-    KC_NO, KC_LABK,     KC_RABK,     KC_BSLS,     KC_PIPE,     KC_AMPR, KC_NO,  TO(4),   KC_TILD, KC_RPRN,     KC_RCBR,     KC_RBRC,      KC_UNDS,     KC_NO,
+    KC_NO, KC_LABK,     KC_RABK,     KC_BSLS,     KC_PIPE,     KC_AMPR, LCA(KC_DEL),  TO(4),   KC_TILD, KC_RPRN,     KC_RCBR,     KC_RBRC,      KC_UNDS,     KC_NO,
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
                                                   KC_NO,       MO(1),   KC_NO,  KC_BSPC,  KC_ENT,  TO(3)
   ),
@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, KC_TRNS,     KC_TRNS,     KC_TRNS,     KC_TRNS,     KC_VOLD,                   KC_PAST, KC_4,        KC_5,        KC_6,         KC_PMNS,     KC_NO,
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
-    KC_NO, KC_UNDO,     KC_CUT,      KC_COPY,     KC_PSTE,     KC_MUTE, KC_NO,  TO(4),    KC_0,    KC_1,        KC_2,        KC_3,         KC_PSLS,     KC_NO,
+    KC_NO, KC_UNDO,     KC_CUT,      KC_COPY,     KC_PSTE,     KC_MUTE, LCA(KC_DEL),  TO(4),    KC_0,    KC_1,        KC_2,        KC_3,         KC_PSLS,     KC_NO,
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
                                                   MO(2),       KC_NO,   KC_NO,  KC_BSPC,  KC_ENT,  TO(3)
   ),

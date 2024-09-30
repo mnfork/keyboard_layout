@@ -3,6 +3,7 @@
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  //Colemak base layer
   [0] = LAYOUT(
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, KC_Q,        KC_W,        KC_F,        KC_P,        KC_B,                      KC_J,    KC_L,        KC_U,        KC_Y,        KC_QUOT,      KC_NO,
@@ -14,6 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                   MO(2),       MO(1),   QK_GESC, KC_BSPC, KC_SPC, QK_REP
   ),
 
+  //Symbol layer
   [1] = LAYOUT(
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, KC_EXLM,     KC_AT,       KC_HASH,     KC_DLR,      KC_PERC,                   KC_EQL,  KC_GRV,      KC_COLN,     KC_SCLN,      KC_PLUS,     KC_NO,
@@ -25,6 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                   KC_NO,       MO(1),   KC_NO,  KC_BSPC,  KC_ENT,  TO(3)
   ),
 
+  //Number layer
   [2] = LAYOUT(
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, KC_PSCR,     KC_INS,      KC_DEL,      RCS(KC_M),   KC_VOLU,                   KC_PEQL, KC_7,        KC_8,        KC_9,         KC_PPLS,     KC_NO,
@@ -36,6 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                   MO(2),       KC_NO,   KC_NO,  KC_BSPC,  KC_ENT,  TO(3)
   ),
 
+  //Navigation layer
   [3] = LAYOUT(
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, MS_ACL2,     MS_WHLL,     MS_UP,       MS_WHLR,     MS_WHLU,                   KC_PGUP, KC_HOME,     KC_UP,       KC_END,       KC_TAB,      KC_NO,
@@ -47,6 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                   TO(4),       KC_CALC, KC_WFWD, KC_WBAK, KC_MYCM, TO(0)
   ),
 
+  //Function layer
   [4] = LAYOUT(
   //-------------------------------------------------------------------                   --------------------------------------------------------------------
     KC_NO, UG_TOGG,     UG_NEXT,     UG_PREV,     UG_VALU,     UG_VALD,                   KC_F12,  KC_F7,       KC_F8,       KC_F9,        KC_SCRL,     KC_NO,

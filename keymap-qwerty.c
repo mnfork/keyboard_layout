@@ -10,7 +10,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //-------------------------------------------------------------------                       --------------------------------------------------------------------
     KC_NO, GUI_T(KC_A), ALT_T(KC_S), CTL_T(KC_D), SFT_T(KC_F), KC_G,                          KC_H,    SFT_T(KC_J), CTL_T(KC_K), ALT_T(KC_L), GUI_T(KC_SCLN),  KC_NO,
   //-------------------------------------------------------------------                       --------------------------------------------------------------------
-    KC_NO, KC_Z,        KC_X,        KC_C,        KC_V,        KC_B,    KC_ENT,      KC_TAB,  KC_N,    KC_H,        KC_COMM,     KC_DOT,      KC_SLSH,      KC_NO,
+    KC_NO, KC_Z,        KC_X,        KC_C,        KC_V,        KC_B,    KC_ENT,      KC_TAB,  KC_N,    KC_M,        KC_COMM,     KC_DOT,      KC_SLSH,      KC_NO,
   //-------------------------------------------------------------------                       --------------------------------------------------------------------
                                                   MO(2),       MO(1),   QK_GESC,     KC_BSPC, KC_SPC, QK_REP
   ),

@@ -46,9 +46,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //-------------------------------------------------------------------                        --------------------------------------------------------------------
     KC_NO, MS_ACL1,     MS_LEFT,     MS_DOWN,     MS_RGHT,     MS_WHLD,                        KC_PGDN, KC_LEFT,     KC_DOWN,     KC_RGHT,      RCS(KC_TAB), KC_NO,
   //-------------------------------------------------------------------                        --------------------------------------------------------------------
-    KC_NO, MS_ACL0,     KC_LALT,     KC_LCTL,     KC_LSFT,     KC_LGUI, KC_TAB,      TO(0),    KC_ESC,  MS_BTN1,     MS_BTN3,     MS_BTN2,      A(KC_TAB),   KC_NO,
+    KC_NO, MS_ACL0,     KC_LALT,     KC_LCTL,     KC_LSFT,     KC_LGUI, KC_TAB,      KC_NO,    KC_ESC,  MS_BTN1,     MS_BTN3,     MS_BTN2,      A(KC_TAB),   KC_NO,
   //-------------------------------------------------------------------                        --------------------------------------------------------------------
-                                                  KC_WBAK,     KC_WFWD, TO(0),       KC_BSPC,  KC_SPC,  KC_ENT
+                                                  KC_COPY,     KC_PSTE, TO(0),       KC_BSPC,  KC_SPC,  KC_ENT
   ),
 
   //Function layer
